@@ -1,6 +1,6 @@
 # Simple Serverless Youtube Video Utility Microservice
 <!-- add image -->
-![Infrastructure](https://github.com/AngKS/Youtube-Utility-Microservice/blob/main/assets/infrastructure.png?raw=true)
+![Infrastructure](https://github.com/AngKS/Youtube-Utility-Microservice/blob/main/assets/Infrastructure.png?raw=true)
 
 This is a simple serverless microservice that allows you to provide a youtube video URL and get back the video's title, video transcript and a GPT summary of the video.
 
