@@ -1,0 +1,30 @@
+{
+    "name": "AWS and Node.js Development",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+    "features": {
+        "ghcr.io/devcontainers/features/aws-cli:1": {},
+        "ghcr.io/devcontainers/features/python:1": {
+            "version": "3.9"
+        },
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        }
+    },
+    "postCreateCommand": "npm install -g aws-sam-cli",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "amazonwebservices.aws-toolkit-vscode",
+                "ms-python.python",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "eg2.vscode-npm-script",
+                "christian-kohler.npm-intellisense",
+                "christian-kohler.path-intellisense",
+                "redhat.vscode-yaml"
+            ]
+        }
+    },
+    "remoteUser": "node",
+    "postStartCommand": "npm install"
+}
