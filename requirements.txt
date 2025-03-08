@@ -18,7 +18,7 @@ sniffio==1.3.1
 soupsieve==2.5
 tqdm==4.66.2
 typing_extensions==4.11.0
-urllib3==2.2.1
+urllib3==2.2.2
 annotated-types==0.6.0
 anyio==4.3.0
 beautifulsoup4==4.12.3
@@ -45,7 +45,7 @@ sniffio==1.3.1
 soupsieve==2.5
 tqdm==4.66.2
 typing_extensions==4.11.0
-urllib3==2.2.1
+urllib3==2.2.2
 annotated-types==0.6.0
 anyio==4.3.0
 beautifulsoup4==4.12.3
@@ -72,4 +72,4 @@ sniffio==1.3.1
 soupsieve==2.5
 tqdm==4.66.2
 typing_extensions==4.11.0
-urllib3==2.2.1
+urllib3==2.2.2
